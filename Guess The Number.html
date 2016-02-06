@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Guess The Number</title>
+        <link rel="stylesheet" href="CSS/bootstrap.min.css">
+</head>
+
+<body background = "lovely-background-wallpaper-5870-6137-hd-wallpapers.jpg"> 
+    </br>
+    </br>
+    </br>
+    </br>
+    <p class="text-center" style="color:#755cc1;font-size:75px;font-family:Georgia">Guess The Number</p>
+    <!--Input field for typying the number-->
+    <div class='row'>
+        <div class="text-center col-md-2 col-md-offset-5">
+            <br/>
+        	<label class="sr-only" for="exampleguess">Take a guess!</label>
+        	<textarea type="test" class="form-control"  id="exampleguess" placeholder="Give a number 1-100" rows="3"></textarea>
+            <h6></h6>
+        </div>
+        <div class="text-center col-md-4 col-md-offset-4">
+            <!--Button for submitting a number-->
+            <button class="btn btn-default btn-warning" type="button">Submit A Number</button>
+            <!--Disply how many guesses left-->
+            <h6></h6>
+            <p class='text-center' style='font-size:16px'>Five Guesses Are Remaining!</p>
+            <br/>
+            <!--Two Buttons-->
+            <button type="button" class="btn btn-default btn-sm btn-primary">
+                <span class="glyphicon glyphicon-repeat" aria-hidden="true"></span> Reset
+            </button>
+            <button type="button" class="btn btn-default btn-sm btn-primary">
+                <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> Hint
+            </button>
+        </div>
+    </div>
+       
+</body>
+
+
+</html>
